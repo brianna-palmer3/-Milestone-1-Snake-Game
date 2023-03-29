@@ -5,6 +5,19 @@ Brianna Palmer
 
 Snake Game
 
+[Basic Steps before beginning:
+1. Set up HTML structure on the page where the game will be played
+2. Define the width and height of the number of cells to determine the square that the snake will move through.
+3. Define the directions and the initial position of the snake
+4. Create an array to store the coordinates of the snakes cells
+5. Make a function that will draw the snake on to the game using the coordinates in the array 
+6. Make a function that will update the position of the snake one cell at a time.
+7. Create a handle user input for changing the direction of the snake.
+8. Add a function to detect when the snake fails, and to help create the boundaries for those failures.
+9. Add the food so the snake can eat to grow and my personal favorite so that the snake changes color when it eats
+10. Create a high score screen to show the player how many points they gained.]
+
+
 concept : 
 The snake only grows when it eats the food, 
 Do not hit the walls, 
