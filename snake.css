@@ -1,16 +1,43 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
+h1{
+    background: #03cffc;
     text-align: center;
-    color:aqua;
-    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.grid {
-    width: 200px;
-    height: 200px;
-    border: 3px solid aqua;
+h2{
+    color:#03cffc;
+}
+
+p{
+    color:#03cffc;
+}
+
+body{
+    background: #080808;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid{
+    width: 500px;
+    height: 500px;
+    border: 2px solid aqua;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+
+}
+
+.snake{
+    background: #03cffc;
+}
+
+.food{
+    background: #e31b78;
+    border-radius: 25px;
 }
 

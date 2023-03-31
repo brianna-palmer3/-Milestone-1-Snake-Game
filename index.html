@@ -9,7 +9,42 @@
   </head>
 
   <body>
-    <h1>Snake Game</h1>
-    <canvas> id="canvas"</canvas>
+    <h1> Snake Game</h1>
+    <!--how to play-->
+    <h2>How to Play:</h2>
+    <p class = "snake-p">Use keyboard arrows or buttons.<br><br>1. The snake only grows when it eats the food.<br>
+      <br>2. Do not hit the walls.<br><br>3. Do not let the snake eat itself.<br><br>4. Do not go backwards.<br><br>5. Each time you fail the game gets faster.<br>
+     <br>Have Fun Playing! </p>
+
+     <div class = "grid"></div>
+
+    <!--high score-->
+    <p class = "snake-high-score">High Score</p>
+    <p class = "snake-high-score">0</p>
+    <div id = "menu-container"></div>
+    <button class = "menu-play-button" onClick="playGame()">Play</button>
+
+    <!--container-->
+    <div id = "container">
+      <p class = "snake-score">Score</p>
+      <p class = "snake-score">0</p>
+
+      <canvas id = "snakeGame" width="400" height="400">
+      </canvas>
+    
+    <!--controls-->
+    <div class = "button">
+      <button class = "top">top</button> 
+      <button class = "bottom">bottom</button>
+      <button class = "left">left</button>
+      <button class = "right">right</button>
+    </div>
+    </div>
+    <!--Game Over-->
+    <div id="game-over">
+      <h1 class = "game-over-title">Game Over</h1>
+      <button class="game-over-button" onClick = "playGame()">Play Again</button>
+    </div>
+    
   </body>
 </html>
