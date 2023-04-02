@@ -55,5 +55,7 @@ After all of these functions are all setup I can then set up controls. To do thi
 
 Lastly, before I finish, let's organize the code. I will do this by doing “Shift + Option + F”.
 
+created arrows using this website https://fontawesome.com/v4/icon/arrow-left
 
+found a new boxshadow and transition option using https://css-tricks.com/almanac/properties/t/transition/ and https://www.geeksforgeeks.org/difference-between-webkit-box-shadow-box-shadow-in-css/
 
